@@ -42,36 +42,7 @@
 </p>
 
 
-## 🪄 Quickstart
 
-> [!TIP]
-> - Soar comes as a single-file, statically-linked executable with no dependencies that you can simply [download](https://github.com/pkgforge/soar/releases/latest) & run.
-> - The [install script](https://github.com/pkgforge/soar/blob/main/install.sh) does this & more automatically for you.
- 
-```bash
-❯ cURL
-curl -fsSL "https://raw.githubusercontent.com/pkgforge/soar/main/install.sh" | sh
-
-❯ wget
-wget -qO- "https://raw.githubusercontent.com/pkgforge/soar/main/install.sh" | sh
-```
-
-> [!NOTE]
-> - Please read & verify what's inside the script before running it
-> - The script is also available through https://soar.qaidvoid.dev/install.sh & https://soar.pkgforge.dev/install.sh
-> - Additionally, if you want to customize your installation, please read the docs @ https://soar.qaidvoid.dev/installation.html
-> - For, extra Guide & Information on infra backends & adding more repos: https://docs.pkgforge.dev
-> - Next, Check [Configuration](https://soar.qaidvoid.dev/configuration) & [Usage](https://soar.qaidvoid.dev/package-management)
-
-## 🌟 Key Features
-
-> [!TIP]
-> - The comparison page @ https://docs.pkgforge.dev/soar/readme goes into more detail.
-
-
-
-
-## ``````````````````````````````````````````````````````````````````````````````````##
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ1a2R2b2F5dG1xY3J4d3J2eGZ6Y2V6d2V6bGJ4aGx1ZzV1aGJ5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="800" alt="Code Animation"/>
 </div>
