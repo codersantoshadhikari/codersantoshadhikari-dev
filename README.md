@@ -2,7 +2,6 @@
 
 [crates-shield]: https://img.shields.io/crates/v/soar-cli
 [crates-url]: https://crates.io/crates/soar-cli
-[discord-shield]: [https://img.shields.io/discord/1313385177703256064?logo=%235865F2&label=discord](https://discord.com/channels/1370263700992168006/1370263701780959234)
 [discord-url]: https://discord.com/channels/1370263700992168006/1370263701780959234
 [doc-shield]: https://img.shields.io/badge/docs-soar.qaidvoid.dev-blue
 [doc-url]: https://soar.qaidvoid.dev
