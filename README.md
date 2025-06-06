@@ -1,13 +1,3 @@
-
-
-[![Crates.io][crates-shield]][crates-url]
-[![Discord][discord-shield]][discord-url]
-[![Documentation][doc-shield]][doc-url]
-[![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
-[![Packages][packages-shield]][packages-url]
-[![Stars][stars-shield]][stars-url]
-
 </div>
 
 <p align="center">
