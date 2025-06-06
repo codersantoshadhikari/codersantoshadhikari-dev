@@ -31,15 +31,7 @@
     </a><br>
 </p>
 
-<h4 align="center">
-  <a href="https://soar.qaidvoid.dev">📘 Documentation</a> |
-  <a href="https://docs.pkgforge.dev">🔮 PackageForge</a>
-</h4>
 
-<p align="center">
-    Soar is a Fast, Modern, Bloat-Free Distro-Independent Package Manager that <a href="https://docs.pkgforge.dev/soar/comparisons"> <i>Just Works</i></a><br>
-    Supports <a href="https://docs.pkgforge.dev/formats/binaries/static">Static Binaries</a>, <a href="https://docs.pkgforge.dev/formats/packages/appimage">AppImages</a>, and other <a href="https://docs.pkgforge.dev/formats/packages">Portable formats</a> on any <a href="https://docs.pkgforge.dev/repositories/soarpkgs/faq#portability"><i>*Unix-based</i> Distro</a>
-</p>
 
 
 
