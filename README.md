@@ -1,18 +1,4 @@
-<div align="center">
 
-[crates-shield]: https://img.shields.io/crates/v/soar-cli
-[crates-url]: https://crates.io/crates/soar-cli
-[discord-url]: https://discord.com/channels/1370263700992168006/1370263701780959234
-[doc-shield]: https://img.shields.io/badge/docs-soar.qaidvoid.dev-blue
-[doc-url]: https://soar.qaidvoid.dev
-[issues-shield]: https://img.shields.io/github/issues/pkgforge/soar.svg
-[issues-url]: https://github.com/pkgforge/soar/issues
-[license-shield]: https://img.shields.io/github/license/pkgforge/soar.svg
-[license-url]: https://github.com/pkgforge/soar/blob/main/LICENSE
-[packages-shield]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge/metadata/refs/heads/main/TOTAL_INSTALLABLE.json&query=$[6].total&label=packages&labelColor=grey&style=flat&link=https://pkgs.pkgforge.dev
-[packages-url]: https://pkgs.pkgforge.dev
-[stars-shield]: https://img.shields.io/github/stars/pkgforge/soar.svg
-[stars-url]: https://github.com/pkgforge/soar/stargazers
 
 [![Crates.io][crates-shield]][crates-url]
 [![Discord][discord-shield]][discord-url]
