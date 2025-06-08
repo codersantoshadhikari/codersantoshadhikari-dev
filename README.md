@@ -1,154 +1,156 @@
 <div align="center">
-
-[crates-shield]: https://img.shields.io/crates/v/soar-cli
-[crates-url]: https://crates.io/crates/soar-cli
-[discord-shield]: https://img.shields.io/discord/1313385177703256064?logo=%235865F2&label=discord
-[discord-url]: https://discord.gg/djJUs48Zbu
-[doc-shield]: https://img.shields.io/badge/docs-soar.qaidvoid.dev-blue
-[doc-url]: https://soar.qaidvoid.dev
-[issues-shield]: https://img.shields.io/github/issues/pkgforge/soar.svg
-[issues-url]: https://github.com/pkgforge/soar/issues
-[license-shield]: https://img.shields.io/github/license/pkgforge/soar.svg
-[license-url]: https://github.com/pkgforge/soar/blob/main/LICENSE
-[packages-shield]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/pkgforge/metadata/refs/heads/main/TOTAL_INSTALLABLE.json&query=$[6].total&label=packages&labelColor=grey&style=flat&link=https://pkgs.pkgforge.dev
-[packages-url]: https://pkgs.pkgforge.dev
-[stars-shield]: https://img.shields.io/github/stars/pkgforge/soar.svg
-[stars-url]: https://github.com/pkgforge/soar/stargazers
-
-[![Crates.io][crates-shield]][crates-url]
-[![Discord][discord-shield]][discord-url]
-[![Documentation][doc-shield]][doc-url]
-[![Issues][issues-shield]][issues-url]
-[![License: MIT][license-shield]][license-url]
-[![Packages][packages-shield]][packages-url]
-[![Stars][stars-shield]][stars-url]
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=00C4B4&center=true&vCenter=true&width=800&height=100&lines=Hello%2C+I'm+Santosh+Adhikari;Senior+Mobile+App+Developer;Game+Development+Expert;Cybersecurity+Specialist;Technical+Founder+@SMAIT" alt="Typing Animation" />
 </div>
 
-<p align="center">
-    <a href="https://soar.qaidvoid.dev/installation">
-        <img src="https://soar.pkgforge.dev/gif?version=v0.5.15+1" alt="soar-list" width="750">
-    </a><br>
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJ1a2R2b2F5dG1xY3J4d3J2eGZ6Y2V6d2V6bGJ4aGx1ZzV1aGJ5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="800" alt="Coding Animation"/>
+</div>
+
+---
+
+## 👨‍💻 Professional Profile
+
+**Innovative Software Architect** with **6+ years** of experience specializing in cross-platform mobile development and game engineering. As **Founder & CTO of SMAIT Technology**, I've spearheaded the development of **60+ applications** with **15+ published** on major app stores, serving **50,000+ users** worldwide.
+
+### Core Expertise Areas:
+- 📱 **Mobile Development**: Flutter | React Native | Kotlin | Swift
+- 🎮 **Game Development**: Unity3D | Ludo Game Specialist | Multiplayer Systems
+- 🛡️ **Security Engineering**: Ethical Hacking | Secure Architecture | Penetration Testing
+- ☁️ **Cloud & Backend**: Firebase | Node.js | MongoDB | AWS
+- 🚀 **Technical Leadership**: Startup Scaling | Team Management | Agile Processes
+
+---
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=codersantoshadhikari&color=orange&style=flat-square" alt="codersantoshadhikari" /> 
+  <img src="https://wakatime.com/badge/user/4818b327-9c94-4397-85a6-c82a5027f03c.svg"/>
 </p>
 
-<h4 align="center">
-  <a href="https://soar.qaidvoid.dev">📘 Documentation</a> |
-  <a href="https://docs.pkgforge.dev">🔮 PackageForge</a>
-</h4>
+
+## 🛠️ Technology Stack
+
+### Programming Languages
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+### Mobile Frameworks
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+
+### Game Development
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
+
+### Backend Technologies
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### DevOps & Cloud
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+### Security Tools
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-EE3124?style=for-the-badge&logo=metasploit&logoColor=white)
+
+---
+
+## 🏆 Featured Projects
+
+### 🎮 Ludo 
+[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/dev?id=8310692885659472367)
+[![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com)
+
+**Features:**
+- Real-time multiplayer with WebSocket
+- In-app purchases system
+- Unity3D optimized for mobile
+- 50,000+ downloads
+
+### 💼 SME Business Suite Pro
+[![Web App](https://img.shields.io/badge/Web_App-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.smaittechnology.com.np)
+
+**Features:**
+- Flutter web + mobile hybrid
+- Firebase backend integration
+- Role-based access control
+- Payment gateway integration
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
-    Soar is a Fast, Modern, Bloat-Free Distro-Independent Package Manager that <a href="https://docs.pkgforge.dev/soar/comparisons"> <i>Just Works</i></a><br>
-    Supports <a href="https://docs.pkgforge.dev/formats/binaries/static">Static Binaries</a>, <a href="https://docs.pkgforge.dev/formats/packages/appimage">AppImages</a>, and other <a href="https://docs.pkgforge.dev/formats/packages">Portable formats</a> on any <a href="https://docs.pkgforge.dev/repositories/soarpkgs/faq#portability"><i>*Unix-based</i> Distro</a>
+<img width="48%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=codersantoshadhikari&theme=github_dark"/>
+<img width="48%" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=codersantoshadhikari&theme=github_dark&utcOffset=8"/>
+</p>
+<br>
+<p align="center">
+<img width="48%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=codersantoshadhikari&theme=github_dark"/>
+<img width="48%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=codersantoshadhikari&theme=github_dark"/>
+</p>
+<br>
+<img width="100%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codersantoshadhikari&theme=github_dark"/>
+
+## 📈 Contribution Graph:
+[![Santosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=codersantoshadhikari&theme=tokyo-night)](https://github.com/codersangam/github-readme-activity-graph)
+
+
+
+---
+
+## 🎓 Education & Certifications
+
+- **MBA in Ethical Hacking & Cybersecurity**
+- **Flutter Development ** - Certified
+- **Unity Certified Developer**
+- **Certified Ethical Hacker (CEH)** - EC-Council
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://santoshadhikari.info.np" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio"/>
+  </a>
+  <a href="https://linkedin.com/in/codersantoshadhikari" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/santosh215" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="mailto:santosh.ad215@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+---
+
+## 💖 Support My Work
+
+<p align="center">
+  <a href="https://buymeacoffee.com/santoshadh7" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="217" alt="Buy Me A Coffee"/>
+  </a>
+  <a href="https://buymeacoffee.com/santoshadh7" target="_blank">
+    <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="200" alt="Ko-fi"/>
+  </a>
 </p>
 
 
-## 🪄 Quickstart
 
-> [!TIP]
-> - Soar comes as a single-file, statically-linked executable with no dependencies that you can simply [download](https://github.com/pkgforge/soar/releases/latest) & run.
-> - The [install script](https://github.com/pkgforge/soar/blob/main/install.sh) does this & more automatically for you.
- 
-```bash
-❯ cURL
-curl -fsSL "https://raw.githubusercontent.com/pkgforge/soar/main/install.sh" | sh
-
-❯ wget
-wget -qO- "https://raw.githubusercontent.com/pkgforge/soar/main/install.sh" | sh
-```
-
-> [!NOTE]
-> - Please read & verify what's inside the script before running it
-> - The script is also available through https://soar.qaidvoid.dev/install.sh & https://soar.pkgforge.dev/install.sh
-> - Additionally, if you want to customize your installation, please read the docs @ https://soar.qaidvoid.dev/installation.html
-> - For, extra Guide & Information on infra backends & adding more repos: https://docs.pkgforge.dev
-> - Next, Check [Configuration](https://soar.qaidvoid.dev/configuration) & [Usage](https://soar.qaidvoid.dev/package-management)
-
-## 🌟 Key Features
-
-> [!TIP]
-> - The comparison page @ https://docs.pkgforge.dev/soar/readme goes into more detail.
-
-| Feature | Description |
-|:--:|:--|
-| **Universal Package Format Support** | Soar can install and manage portable package formats including [static binaries](https://docs.pkgforge.dev/formats/binaries/static), [self-extractable archives](https://docs.pkgforge.dev/formats/packages/archive), and [AppImages](https://docs.pkgforge.dev/formats/packages/appimage). |
-| **System Integration** | Soar [automatically integrates](https://soar.qaidvoid.dev/#desktop-integration) installed packages with your system to provide a native-like experience. |
-| **Flexible Repository System** | While Soar comes preconfigured with [official repositories](https://docs.pkgforge.dev/repositories), you can [configure custom repositories](https://soar.qaidvoid.dev/configuration#custom-repository-support) that use any build format as long as they provide compatible metadata. The `.SBUILD` format is only required for the official repositories, not for custom ones. |
-| **Security First** | Soar enforces security through checksums and signing verification for package installations. |
-| **Userspace** | Soar works completely in Userspace without Superuser (admin/sudo) Privileges. |
-| **External Repository Support** | Soar can access packages from sources like [ivan-hc/AM](https://github.com/ivan-hc/AM) and [appimage.github.io](https://github.com/AppImage/appimage.github.io) through metadata provided by pkgforge. These external sources don't directly work with soar but are made compatible through pkgforge's metadata conversion. **Note:** Packages from external repositories are not verified. |
-| **Fast Package Operations** | Soar provides efficient package searching, installation, and management with minimal overhead. |
-
-## 📦 Packages
-
-> [!TIP]
-> Check out the detailed documentation @ https://docs.pkgforge.dev/repositories/soarpkgs
-
-| Feature | Description |
-|:--:|:--|
-| **Portable Packages** | Packages are designed to be [portable](https://docs.pkgforge.dev/formats/) across distributions, either through [static linking](https://docs.pkgforge.dev/formats/binaries/static) or by bundling all dependencies. This makes them [distro-agnostic](https://docs.pkgforge.dev/soar/readme/packages#portability). |
-| **Extensive Collection** | Official repositories host one of the [largest collections](https://docs.pkgforge.dev/soar/readme/packages#total) of portable packages. Browse them with `soar list` or at [pkgs.pkgforge.dev](https://pkgs.pkgforge.dev/). |
-| **Prebuilt Binaries** | 100% of official packages are provided as [prebuilts](https://docs.pkgforge.dev/repositories/soarpkgs/faq#cache), making installation limited only by download speed. |
-| **Quality Compilation** | Around 80% of packages are compiled from source with optimizations for performance (LTO), security (ASLR/PIE), and size (MUSL). |
-| **High Security Standards** | Official packages are built with [SLSA Build L2 Security Guarantees](https://docs.pkgforge.dev/soar/readme/security). |
-| **Community Contributions** | The [`.SBUILD`](https://docs.pkgforge.dev/sbuild/introduction) format in [pkgforge/soarpkgs](https://github.com/pkgforge/soarpkgs) allows community members to submit package definitions, similar to AUR. |
-| **Cross-Distro Compatibility** | Some packages are repackaged from other distro repositories, allowing you to run applications from e.g., Arch repositories on Debian-based systems without containers. |
-| **Decentralized** | The portable nature of packages means they can be downloaded and used independently of Soar if needed. |
-
-## ☢️ Caveats
-
-> [!NOTE]
-> - If you have additional questions, check our [FAQ](https://docs.pkgforge.dev/repositories/soarpkgs/faq) or [create a discussion](https://github.com/pkgforge/soar/discussions).
-
-| Design Decisions | The Rationale |
-|:--:|:--|
-| **Not Reinvent things** | Soar isn't a package manager in the traditional sense, neither is it a [new standard](https://xkcd.com/927/). Think of soar as an amalgamation & the natural progression of tools like [AM](https://github.com/ivan-hc/AM), [bin](https://github.com/marcosnils/bin), [eget](https://github.com/zyedidia/eget), [hysp](https://github.com/pwnwriter/hysp), [nami](https://github.com/txthinking/nami) & [zap](https://github.com/srevinsaju/zap). |
-| **Not a System Package Manager** | Soar intentionally complements rather than replaces your distro's package manager. Unlike [Homebrew](https://github.com/Homebrew/brew), we don't handle core system tools/libraries — we let distro package managers excel at that job. Soar provides additional packages or newer versions while avoiding conflicts by operating entirely in userspace and following XDG specifications. |
-| **Not a Devtools Manager** | Soar doesn't handle development toolchains by design. We do have completely static/relocatable toolchains in our repo, but it will always be better to just use dedicated tools like [asdf](https://github.com/asdf-vm/asdf), [aqua](https://github.com/aquaproj/aqua), [chsrc](https://github.com/RubyMetric/chsrc), [mise](https://github.com/jdx/mise), [vfox](https://github.com/version-fox/vfox) etc. |
-
-## 🐞 Bug Reports & Feature Requests
-
-> [!WARNING]
-> For reporting any issues related to packaging (Not Soar Core), please use our [Official package repository](https://docs.pkgforge.dev/repositories) at [pkgforge/soarpkgs](https://github.com/pkgforge/soarpkgs).
-
-Soar is a FOSS project primarily maintained by [@QaidVoid](https://github.com/QaidVoid) & a few other [core contributors](https://github.com/pkgforge/soar/graphs/contributors), who are all volunteers and do it as a hobby.<br>
-To save our time triaging & to ensure your issue/feature-request gets addressed quickly, make sure to:
-- Search the [Issues](https://github.com/pkgforge/soar/issues) & [Discussion](https://github.com/pkgforge/soar/discussions?discussions_q=) tab (Both Closed/Opened) for same/similar issue in case it was already addressed.
-- [Open a Discussion](https://github.com/pkgforge/soar/discussions/new/choose) instead of an issue if you have a question. Issues should be only created for bug reports and feature requests.<br>
-- Use our [Issue Templates](https://github.com/pkgforge/soar/issues/new/choose) rather than a blank issue.<br>
-
-> [!NOTE]
-> - We assign a specific [priority level (`p0-p3`)](https://github.com/pkgforge/soar/labels) for each [valid issue](https://github.com/pkgforge/soar/issues) created.
-> - Based on the assigned [priority level (`p0-p3`)](https://github.com/pkgforge/soar/labels) & our free time, we will do our best to respond/address it.
-> - However, this is not a guarantee or an [SLA](https://en.wikipedia.org/wiki/Service-level_agreement). Please have patience & wait before tagging us again for a response. We thank you for your understanding.
-
-
-## 💬 Community
-
-We have a growing community on discord to discuss not only Soar/Pkgforge but also other cool projects, feel free to join & hangout anytime.
-- [![Discord](https://img.shields.io/discord/1313385177703256064?logo=%235865F2&label=Discord)](https://discord.gg/djJUs48Zbu)
-- Other Channels: https://docs.pkgforge.dev/contact/chat
-
-## 🤝 Contributing
-
-> [!WARNING]
-> While we welcome contributions of all kinds, please read [CONTRIBUTING.md](https://github.com/pkgforge/soar/blob/main/CONTRIBUTING.md) before submitting us a PR.
-
-Please feel free to:
-1. Fork the repository
-2. Create your feature branch
-3. Submit a pull request
-
-## 📊 Repo Stats
-
-![Alt](https://repobeats.axiom.co/api/embed/7c089611431897ab74236ac506187c2f563c2886.svg "Repobeats analytics image")
-[![Stargazers](https://reporoster.com/stars/dark/pkgforge/soar)](https://github.com/pkgforge/soar/stargazers)
-[![Stargazers over time](https://starchart.cc/pkgforge/soar.svg?variant=dark)](https://starchart.cc/pkgforge/soar)
-
-## 📝 License
-
-This project is licensed under [MIT](https://spdx.org/licenses/MIT.html) - see the [LICENSE](LICENSE) file for details.<br><br>
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpkgforge%2Fsoar.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpkgforge%2Fsoar?ref=badge_large)
-
-## Minimum Supported Rust Version (MSRV)
-
-v1.82.0
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn&fontSize=40" alt="Footer Wave"/>
+</div>
