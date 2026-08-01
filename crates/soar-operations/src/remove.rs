@@ -1,5 +1,6 @@
 use soar_core::{
     database::models::InstalledPackage,
+    error::SoarError,
     package::{query::PackageQuery, remove::PackageRemover},
     SoarResult,
 };
@@ -34,7 +35,7 @@ pub fn resolve_removals(
         let query = PackageQuery::try_from(package.as_str())?;
 
         // --all flag: remove all installed variants matching the name
-        if let (true, None, Some(ref name)) = (all, &query.pkg_id, &query.name) {
+        if let (true, None, Some(ref name)) = (all, query.pkg_id.as_deref(), &query.name) {
             let installed: Vec<InstalledPackage> = diesel_db
                 .with_conn(|conn| {
                     CoreRepository::list_filtered(
@@ -61,62 +62,12 @@ pub fn resolve_removals(
             continue;
         }
 
-        // Handle #all: remove all packages with the selected pkg_id
-        if let Some(ref pkg_id) = query.pkg_id {
-            if pkg_id == "all" {
-                let installed: Vec<InstalledPackage> = diesel_db
-                    .with_conn(|conn| {
-                        CoreRepository::list_filtered(
-                            conn,
-                            query.repo_name.as_deref(),
-                            query.name.as_deref(),
-                            None,
-                            None,
-                            None,
-                            None,
-                            None,
-                            Some(SortDirection::Asc),
-                        )
-                    })?
-                    .into_iter()
-                    .map(Into::into)
-                    .collect();
-
-                if installed.is_empty() {
-                    results.push(RemoveResolveResult::NotInstalled(
-                        query.name.clone().unwrap_or_default(),
-                    ));
-                } else if installed.len() > 1 {
-                    // Multiple pkg_ids → ambiguous, caller picks which pkg_id
-                    results.push(RemoveResolveResult::Ambiguous {
-                        query: query.name.clone().unwrap_or_default(),
-                        candidates: installed,
-                    });
-                } else {
-                    let target_pkg_id = installed[0].pkg_id.clone();
-                    // Find all packages with this pkg_id
-                    let all_installed: Vec<InstalledPackage> = diesel_db
-                        .with_conn(|conn| {
-                            CoreRepository::list_filtered(
-                                conn,
-                                query.repo_name.as_deref(),
-                                None,
-                                Some(&target_pkg_id),
-                                None,
-                                None,
-                                None,
-                                None,
-                                Some(SortDirection::Asc),
-                            )
-                        })?
-                        .into_iter()
-                        .map(Into::into)
-                        .collect();
-
-                    results.push(RemoveResolveResult::Resolved(all_installed));
-                }
-                continue;
-            }
+        // `#all` selected every variant, then removed only the one chosen, so
+        // it did nothing a bare name did not. `--all` is what removes them all.
+        if query.pkg_id.as_deref() == Some("all") {
+            return Err(SoarError::InvalidPackageQuery(
+                "'#all' is not supported when removing; use --all".into(),
+            ));
         }
 
         // Normal case: find matching installed packages
@@ -170,7 +121,6 @@ pub async fn perform_removal(
         ctx.events().emit(SoarEvent::Removing {
             op_id,
             pkg_name: pkg.pkg_name.clone(),
-            pkg_id: pkg.pkg_id.clone(),
             stage: RemoveStage::RunningHook("pre_remove".into()),
         });
 
@@ -191,7 +141,6 @@ pub async fn perform_removal(
                 ctx.events().emit(SoarEvent::Removing {
                     op_id,
                     pkg_name: pkg.pkg_name.clone(),
-                    pkg_id: pkg.pkg_id.clone(),
                     stage: RemoveStage::Complete {
                         size_freed: None,
                     },
@@ -199,12 +148,10 @@ pub async fn perform_removal(
                 ctx.events().emit(SoarEvent::OperationComplete {
                     op_id,
                     pkg_name: pkg.pkg_name.clone(),
-                    pkg_id: pkg.pkg_id.clone(),
                 });
 
                 removed.push(RemovedInfo {
                     pkg_name: pkg.pkg_name,
-                    pkg_id: pkg.pkg_id,
                     repo_name: pkg.repo_name,
                     version: pkg.version,
                 });
@@ -213,13 +160,11 @@ pub async fn perform_removal(
                 ctx.events().emit(SoarEvent::OperationFailed {
                     op_id,
                     pkg_name: pkg.pkg_name.clone(),
-                    pkg_id: pkg.pkg_id.clone(),
                     error: err.to_string(),
                 });
 
                 failed.push(FailedInfo {
                     pkg_name: pkg.pkg_name,
-                    pkg_id: pkg.pkg_id,
                     error: err.to_string(),
                 });
             }
